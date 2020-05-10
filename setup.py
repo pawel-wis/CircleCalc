@@ -2,15 +2,15 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-     name='circcalc',  
+     name='circlecalc',  
      version='1.0',
-     scripts=['circcalc'] ,
-     author="Paweł Wiśniewski",
+     scripts=['circlecalc'] ,
+     author="Pawel Wisniewski",
      author_email="pawel.wis.me@gmail.com",
      description="Circle field calculator",
      long_description=long_description,
    long_description_content_type="text/markdown",
-     url="https://github.com/javatechy/dokr",
+     url="https://github.com/pawel-wis/CircleCalc.git",
      packages=setuptools.find_packages(),
      classifiers=[
          "Programming Language :: Python :: 3",
